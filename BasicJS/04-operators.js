@@ -48,4 +48,50 @@ console.log(a == "6"); // Igual (comparación de valor y tipo)
 console.log(a === a);
 console.log(a === 6); // Igual (comparación de valor y tipo)
 console.log(a === "6"); // Igual (comparación de valor y tipo)
+console.log(a != 6);
+console.log(a !== 6);
+console.log(0 == false);
+console.log(1 == false);
+console.log(0 == "");
+console.log(0 == "Hola");
+console.log(0 === "");
+console.log(undefined == null);
 
+// Truthy values (valores verdaderos)
+// Todos los numeros positivos y negativos menos el cero 
+// Todas las cadendas de texto menos las vacías 
+// Todos los boolean
+
+/**Falsy values (valores falsos)
+ * 0
+ * 0n
+ * null
+ * undefined
+ * NaN
+ * El boolean false
+ * Cadenas de texto vacías
+ */
+
+// Operadores lógicos
+
+// And (&&)
+console.log (5 > 10 && 15 > 20);
+console.log (5 > 10 && 15 < 20); 
+console.log (5 < 10 && 15 > 20); 
+
+// Or (||)
+console.log (5 > 10 || 15 > 20);
+console.log (5 > 10 || 15 < 20);
+console.log (5 < 10 || 15 > 20);
+
+console.log(5 > 10 && 15 > 20 || 30 < 40);
+
+// not (!)
+console.log(!true);
+console.log(!(5 > 10 && 15 > 20)); 
+console.log(!(5 > 10 || 15 > 20));
+
+// Operador ternario
+const isRaining = true;
+isRaining ? console.log("Esta llvoeindo") : console.log("No esta lloviendo");
+ 
