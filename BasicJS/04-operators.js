@@ -49,4 +49,3 @@ console.log(a === a);
 console.log(a === 6); // Igual (comparación de valor y tipo)
 console.log(a === "6"); // Igual (comparación de valor y tipo)
 
-|
